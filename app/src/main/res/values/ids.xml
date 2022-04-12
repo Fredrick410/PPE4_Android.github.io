@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextText_etat" type="id" />
+    <item name="numClient" type="id" />
+    <item name="editTextText_nbJoursDeStockagePrevu" type="id" />
+</resources>

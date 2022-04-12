@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppPPE4</string>
+    <string-array name="spinner">
+        <item>Encours</item>
+        <item>Termine</item>
+    </string-array>
+</resources>
+
+

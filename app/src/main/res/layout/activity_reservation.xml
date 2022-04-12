@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background"
+    tools:context=".ReservationActivity">
+
+    <TextView
+        android:id="@+id/textView_reservation"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:text="Reservation"
+        android:textSize="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Reservation"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:id="@+id/editTextText_dateReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Date reservation" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Prevue Reservation"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_blue_light"/>/>
+
+    <EditText
+        android:id="@+id/editTextText_datePrevueReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Date Prevue Reservatione" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de stockage"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_blue_light"/>/>
+
+    <EditText
+        android:id="@+id/editTextTex_nombreDeStockage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="NombreDeStockage" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantité"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_blue_light"/>/>
+
+    <EditText
+        android:id="@+id/editText_quantité"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Quantité" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etat"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_blue_light"/>/>
+
+    <EditText
+        android:id="@+id/editText_etat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Etat" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDER"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
